@@ -1,1 +1,20 @@
-# Flowchart
+graph TD
+A[Crime reported] --> B[Arrest]
+B --> C[Police interviews / witness statements / collection of evidence]
+C --> D[Magistrates' vs crown court?]
+D --> E[CPS decide to charge or not?]
+E --> F[Charged]
+E --> G[Not charged]
+G --> H[Non-court disposals i.e. final warning/fixed penalty notice/ restorative justice]
+F --> I[Bail or kept in custody]
+I --> J[Bail]
+I --> K[No bail]
+K --> L[Remand]
+J --> M[Trial]
+L --> M
+M --> N[Verdict]
+N --> O[Guilty]
+N --> P[Not guilty]
+O --> Q[Sentence]
+P --> R[Acquitted]
+Q --> S[Community order / fine / suspended sentence / imprisonment]
